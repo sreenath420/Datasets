@@ -1,6 +1,5 @@
 
-from pyspark.sql import SparkSession 
-  
+from pyspark.sql import SparkSession
 >>> # Create Spark Session 
 >>> sparkSession = SparkSession.builder.appName('rawdatacleaning').getOrCreate()                                                                                                           
 24/04/06 07:01:21 WARN SparkSession: Using an existing Spark session; only runtime SQL configurations will take effect.
